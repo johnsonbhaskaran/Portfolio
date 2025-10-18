@@ -1,10 +1,16 @@
 import "./App.css";
+import Sun from "./components/Sun";
+import Quote from "./sections/Quote";
 
 function App() {
   return (
-    <>
-      <h1 class='font-bold text-3xl underline'>Hello world!</h1>
-    </>
+    <div className='relative'>
+      <Sun />
+      <div className='bg-amber-200 md:mx-auto md:max-w-2/3'>
+        <Quote />
+        <Quote />
+      </div>
+    </div>
   );
 }
 
