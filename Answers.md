@@ -203,3 +203,7 @@ Check Trim method / tabIndex / Browser History API / await / customHooks / fetch
 200. 75 A
 
 please call 9150014160
+
+D - Java script & React js task
+Thank you for completing the task.
+Our team will validate your answers and deliver your certificates within 2 working days.
