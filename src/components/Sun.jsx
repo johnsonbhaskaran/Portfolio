@@ -6,7 +6,7 @@ const Sun = () => {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <div className='top-4 md:top-16 left-4 md:left-16 fixed'>
+    <div className='top-4 md:top-16 left-4 md:left-16 z-20 fixed'>
       <div className='size-16 sm:size-full'>
         <img
           onClick={toggleTheme}
