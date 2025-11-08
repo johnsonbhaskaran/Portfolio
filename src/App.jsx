@@ -18,15 +18,13 @@ function App() {
   return (
     <div className={`static ${theme === "dark" ? dark : light}`}>
       <Sun />
-      <div className='md:mx-auto md:max-w-2/3'>
-        {/* <Quote /> */}
-        <Intro />
-        <Prowess />
-        <Works />
-        <Hire />
-        <Hi />
-        <Footer />
-      </div>
+      <Quote />
+      <Intro />
+      <Prowess />
+      <Works />
+      <Hire />
+      <Hi />
+      <Footer />
     </div>
   );
 }
