@@ -20,7 +20,7 @@ const Intro = () => {
           portfolio
         </h1>
       </div>
-      <div className='flex justify-between items-center w-5xl'>
+      <div className='flex justify-between items-center w-4xl'>
         <img src={pic} alt='casual looking Johnson Bhaskaran head shot' />
         <h2 className='text-7xl/24 text-right'>
           I'm a player <br />
