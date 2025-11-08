@@ -8,7 +8,7 @@ const Prowess = () => {
 
   return (
     <div className='flex flex-col justify-evenly items-center gap-8 h-screen'>
-      <h2 className='w-5xl text-6xl'>My Prowess 🚀</h2>
+      <h2 className='w-5xl text-6xl'>My Prowess 💪</h2>
       <div
         className={`flex flex-wrap items-center gap-4 w-4xl ${
           theme === "light" ? "text-white" : "text-[#333]"
