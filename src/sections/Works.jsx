@@ -1,4 +1,58 @@
+import { useTheme } from "../themeContext";
+import { ArrowUpRight } from "feather-icons-react";
+
 const Works = () => {
-  return <div className='flex flex-col justify-center items-center max-w-5xl h-screen'>Works</div>;
+  const { theme } = useTheme();
+
+  const projectData = [
+    {
+      id: 1,
+      name: "FOOD-from-HOME",
+      thumbnail: "",
+      liveLink: "",
+      gitHub: "",
+    },
+    {
+      id: 2,
+      name: "Desi Etsy",
+      thumbnail: "",
+      liveLink: "",
+      gitHub: "",
+    },
+  ];
+
+  return (
+    <div className='h-screen'>
+      <div className='mx-auto w-5xl h-1/4 text-6xl'>
+        <h2 className='flex items-center h-full'>My Works 💜</h2>
+      </div>
+      <div className='mx-auto h-2/3'>
+        <div className='flex gap-4 h-full overflow-x-auto no-scrollbar'>
+          <div className='pl-106'></div>
+          {projectData.map((item) => {
+            return (
+              <div
+                key={item.id}
+                className={`${
+                  theme === "light" ? "bg-[#D9D9D9] text-[#333]" : "bg-[#333] text-[#DDD]"
+                } rounded-[66px] w-5xl h-full shrink-0 relative`}
+              >
+                <div className='bottom-0 absolute inset-x-0 p-12'>
+                  <div className='flex justify-between'>
+                    <h3 className='text-5xl'>{item.name}</h3>
+                    <div className='flex items-center bg-[salmon] p-2.5 rounded-[6px] cursor-pointer'>
+                      <ArrowUpRight className='size-12' />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+
+          <div className='pl-106'></div>
+        </div>
+      </div>
+    </div>
+  );
 };
 export default Works;
