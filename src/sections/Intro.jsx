@@ -1,15 +1,31 @@
+import { useTheme } from "../themeContext";
+import pic from "./../assets/Johnson_Bhaskaran.png";
+import cup from "./../assets/cup.png";
+
 const Intro = () => {
+  const { theme } = useTheme();
+
   return (
-    <div>
-      <div>
-        <p>Welcome to</p>
-        <h1>JohnsonB's portfolio</h1>
+    <div className='flex flex-col justify-evenly items-center w-full h-screen'>
+      <div className='flex flex-col justify-evenly w-5xl'>
+        <p className='text-4xl/16'>Welcome to</p>
+        <h1 className='text-7xl'>
+          <span
+            className={`${
+              theme === "light" ? "text-[#FFD700]" : "text-[#000080]"
+            }  decoration-wavy underline underline-offset-[18px]`}
+          >
+            JohnsonB's
+          </span>{" "}
+          portfolio
+        </h1>
       </div>
-      <div>
-        <img src='' alt='' />
-        <h2>
+      <div className='flex justify-between items-center w-5xl'>
+        <img src={pic} alt='casual looking Johnson Bhaskaran head shot' />
+        <h2 className='text-7xl/24 text-right'>
           I'm a player <br />
-          🏆 I play <br />
+          <img className='inline mr-6 mb-2' src={cup} alt='' />
+          I play <br />
           Design <br />
           Frontend <br />
           Backend <br />
