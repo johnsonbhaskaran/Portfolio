@@ -16,7 +16,7 @@ const Intro = () => {
             }  decoration-wavy underline underline-offset-[18px]`}
           >
             JohnsonB's
-          </span>{" "}
+          </span>
           portfolio
         </h1>
       </div>
