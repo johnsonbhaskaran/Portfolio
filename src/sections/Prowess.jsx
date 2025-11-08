@@ -17,7 +17,7 @@ const Prowess = () => {
         <div
           className={`${
             theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 rounded-full text-3xl flex items-center gap-2`}
+          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
         >
           <Check
             className={`${
@@ -29,7 +29,7 @@ const Prowess = () => {
         <div
           className={`${
             theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 rounded-full text-3xl flex items-center gap-2`}
+          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
         >
           <Check
             className={`${
@@ -41,7 +41,7 @@ const Prowess = () => {
         <div
           className={`${
             theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 rounded-full text-3xl flex items-center gap-2`}
+          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
         >
           <Check
             className={`${
@@ -53,7 +53,7 @@ const Prowess = () => {
         <div
           className={`${
             theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 rounded-full text-3xl flex items-center gap-2`}
+          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
         >
           <Check
             className={`${
@@ -65,7 +65,7 @@ const Prowess = () => {
         <div
           className={`${
             theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 rounded-full text-3xl flex items-center gap-2`}
+          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
         >
           <Check
             className={`${
@@ -77,7 +77,7 @@ const Prowess = () => {
         <div
           className={`${
             theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 rounded-full text-3xl flex items-center gap-2`}
+          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
         >
           <Check
             className={`${
@@ -90,7 +90,7 @@ const Prowess = () => {
         <div
           className={`${
             theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 rounded-full text-3xl flex items-center gap-2`}
+          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
         >
           <Check
             className={`${
@@ -102,7 +102,7 @@ const Prowess = () => {
         <div
           className={`${
             theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 rounded-full text-3xl flex items-center gap-2`}
+          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
         >
           <Check
             className={`${
@@ -114,7 +114,7 @@ const Prowess = () => {
         <div
           className={`${
             theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 rounded-full text-3xl flex items-center gap-2`}
+          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
         >
           <Check
             className={`${
@@ -126,7 +126,7 @@ const Prowess = () => {
         <div
           className={`${
             theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 rounded-full text-3xl flex items-center gap-2`}
+          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
         >
           <Check
             className={`${
@@ -138,7 +138,7 @@ const Prowess = () => {
         <div
           className={`${
             theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 rounded-full text-3xl flex items-center gap-2`}
+          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
         >
           <Check
             className={`${
@@ -150,7 +150,7 @@ const Prowess = () => {
         <div
           className={`${
             theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 rounded-full text-3xl flex items-center gap-2`}
+          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
         >
           <img src={theme === "light" ? LoadingDark : LoadingLight} alt='' />
           Python
@@ -158,7 +158,7 @@ const Prowess = () => {
         <div
           className={`${
             theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 rounded-full text-3xl flex items-center gap-2`}
+          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
         >
           <img src={theme === "light" ? LoadingDark : LoadingLight} alt='' />
           Java
@@ -166,7 +166,7 @@ const Prowess = () => {
         <div
           className={`${
             theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 rounded-full text-3xl flex items-center gap-2`}
+          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
         >
           <img src={theme === "light" ? LoadingDark : LoadingLight} alt='' />
           Spline
