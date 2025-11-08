@@ -12,11 +12,11 @@ import { useTheme } from "./themeContext.jsx";
 function App() {
   const { theme } = useTheme();
 
-  const dark = ` bg-gradient-to-r from-0% from-white via-[#b1b1b1] via-[#cdcdcd] via-36% via-64% to-[#999] to-100% text-[#333]`;
-  const light = ` bg-gradient-to-r from-0% from-[#333] via-[#252525] via-[#1c1c1c] via-23% via-56% to-[#131313] to-100% text-[#ddd]`;
+  const dark = ` bg-gradient-to-r from-0% from-white via-[#b1b1b1] via-[#cdcdcd] via-36% via-64% to-[#999] to-100% text-[#333] selection:bg-[#9ACD32] selection:text-[white]`;
+  const light = ` bg-gradient-to-r from-0% from-[#333] via-[#252525] via-[#1c1c1c] via-23% via-56% to-[#131313] to-100% text-[#ddd] selection:bg-[#6A5ACD] selection:text-[black]`;
 
   return (
-    <div className={`static ${theme === "dark" ? dark : light}`}>
+    <div className={`static ${theme === "dark" ? dark : light} `}>
       <Sun />
       <Quote />
       <Intro />
