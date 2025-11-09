@@ -1,4 +1,36 @@
+import LinkedInDark from "./../assets/social/LinkedIn-dark.png";
+import LinkedInLight from "./../assets/social/LinkedIn-light.png";
+import GitHubDark from "./../assets/social/GitHub-dark.png";
+import GitHubLight from "./../assets/social/GitHub-light.png";
+import BehanceDark from "./../assets/social/Behance-dark.png";
+import BehanceLight from "./../assets/social/Behance-light.png";
+import DribbbleDark from "./../assets/social/Dribbble-dark.png";
+import DribbbleLight from "./../assets/social/Dribbble-light.png";
+import { useTheme } from "../themeContext";
+
 const Footer = () => {
-  return <div className='flex flex-col justify-center items-center max-w-5xl h-screen'>Footer</div>;
+  const { theme } = useTheme();
+
+  return (
+    <div className='flex justify-around items-center bg-white/20 h-32'>
+      <div className='flex justify-between items-center max-w-5xl'>
+        <p>copyright © 2025. All rights reserved.</p>
+        <div className='flex'>
+          <a>
+            <img src={`${theme === "light" ? LinkedInDark : LinkedInLight}`} alt='' />
+          </a>
+          <a>
+            <img src={`${theme === "light" ? GitHubDark : GitHubLight}`} alt='' />
+          </a>
+          <a>
+            <img src={`${theme === "light" ? BehanceDark : BehanceLight}`} alt='' />
+          </a>
+          <a>
+            <img src={`${theme === "light" ? DribbbleDark : DribbbleLight}`} alt='' />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 };
 export default Footer;
