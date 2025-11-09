@@ -7,16 +7,36 @@ const Hire = () => {
       </div>
       <div className='flex flex-col justify-evenly items-center w-4xl h-3/4 text-3xl'>
         <div className='grid grid-cols-2 w-full cursor-pointer'>
-          <div className='p-6 border border-t-2 border-l-2'>GitHub</div>
-          <div className='p-6 border border-t-2 border-r-2'>LinkedIn</div>
-          <div className='p-6 border border-b-2 border-l-2'>Behance</div>
-          <div className='p-6 border border-r-2 border-b-2'>Dribbble</div>
+          <a
+            href='https://github.com/johnsonbhaskaran'
+            className='p-6 border border-t-2 border-l-2'
+          >
+            GitHub
+          </a>
+          <a
+            href='https://www.linkedin.com/in/johnsonbhaskaran/'
+            className='p-6 border border-t-2 border-r-2'
+          >
+            LinkedIn
+          </a>
+          <a href='https://www.behance.net/johnsonb' className='p-6 border border-b-2 border-l-2'>
+            Behance
+          </a>
+          <a
+            href='https://dribbble.com/johnsonbhaskaran'
+            className='p-6 border border-r-2 border-b-2'
+          >
+            Dribbble
+          </a>
         </div>
         <p>
           send me an <span className='text-5xl'>📫 </span>
-          <span className={`decoration-wavy underline underline-offset-[12px]`}>
+          <a
+            href='mailto:johnsonb@live.in'
+            className={`decoration-wavy underline underline-offset-[12px]`}
+          >
             johnsonb@live.in
-          </span>
+          </a>
         </p>
       </div>
     </div>
