@@ -10,14 +10,14 @@ const Works = () => {
       name: "FOOD-from-HOME",
       thumbnail: "",
       liveLink: "",
-      gitHub: "",
+      gitHub: "https://github.com/johnsonbhaskaran/Food-from-Home",
     },
     {
       id: 2,
       name: "Desi Etsy",
       thumbnail: "",
       liveLink: "",
-      gitHub: "",
+      gitHub: "https://github.com/johnsonbhaskaran/Desi-Etsy",
     },
   ];
 
@@ -31,7 +31,8 @@ const Works = () => {
           <div className='pl-106'></div>
           {projectData.map((item) => {
             return (
-              <div
+              <a
+                href={item.gitHub}
                 key={item.id}
                 className={`${
                   theme === "light" ? "bg-[#D9D9D9] text-[#333]" : "bg-[#333] text-[#DDD]"
@@ -45,7 +46,7 @@ const Works = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </a>
             );
           })}
 
