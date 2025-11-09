@@ -9,7 +9,7 @@ const Hi = () => {
         <p className='text-4xl/18'>I'm pleased to meet you!</p>
         <h2 className='text-6xl'>Send a Hi! 🤗</h2>
       </div>
-      <div className='flex flex-col w-5xl h-2/3'>
+      <div className='flex flex-col w-4xl h-2/3'>
         <form className='h-full text-4xl'>
           <input
             type='text'
