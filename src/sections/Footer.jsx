@@ -12,22 +12,24 @@ const Footer = () => {
   const { theme } = useTheme();
 
   return (
-    <div className='flex justify-around items-center bg-white/20 h-32'>
-      <div className='flex justify-between items-center max-w-5xl'>
-        <p>copyright © 2025. All rights reserved.</p>
-        <div className='flex'>
-          <a>
-            <img src={`${theme === "light" ? LinkedInDark : LinkedInLight}`} alt='' />
-          </a>
-          <a>
-            <img src={`${theme === "light" ? GitHubDark : GitHubLight}`} alt='' />
-          </a>
-          <a>
-            <img src={`${theme === "light" ? BehanceDark : BehanceLight}`} alt='' />
-          </a>
-          <a>
-            <img src={`${theme === "light" ? DribbbleDark : DribbbleLight}`} alt='' />
-          </a>
+    <div className='flex justify-center items-center bg-white/20 h-32'>
+      <div className='w-5xl'>
+        <div className='flex justify-between items-center'>
+          <p>copyright © 2025. All rights reserved.</p>
+          <div className='flex gap-8'>
+            <a>
+              <img src={`${theme === "light" ? LinkedInDark : LinkedInLight}`} alt='' />
+            </a>
+            <a>
+              <img src={`${theme === "light" ? GitHubDark : GitHubLight}`} alt='' />
+            </a>
+            <a>
+              <img src={`${theme === "light" ? BehanceDark : BehanceLight}`} alt='' />
+            </a>
+            <a>
+              <img src={`${theme === "light" ? DribbbleDark : DribbbleLight}`} alt='' />
+            </a>
+          </div>
         </div>
       </div>
     </div>
