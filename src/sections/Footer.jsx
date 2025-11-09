@@ -17,16 +17,16 @@ const Footer = () => {
         <div className='flex justify-between items-center'>
           <p>copyright © 2025. All rights reserved.</p>
           <div className='flex gap-8'>
-            <a>
+            <a href='https://www.linkedin.com/in/johnsonbhaskaran/'>
               <img src={`${theme === "light" ? LinkedInDark : LinkedInLight}`} alt='' />
             </a>
-            <a>
+            <a href='https://github.com/johnsonbhaskaran'>
               <img src={`${theme === "light" ? GitHubDark : GitHubLight}`} alt='' />
             </a>
-            <a>
+            <a href='https://www.behance.net/johnsonb'>
               <img src={`${theme === "light" ? BehanceDark : BehanceLight}`} alt='' />
             </a>
-            <a>
+            <a href='https://dribbble.com/johnsonbhaskaran'>
               <img src={`${theme === "light" ? DribbbleDark : DribbbleLight}`} alt='' />
             </a>
           </div>
