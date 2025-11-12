@@ -12,9 +12,9 @@ const Footer = () => {
   const { theme } = useTheme();
 
   return (
-    <div className='flex justify-center items-center bg-white/20 h-32'>
-      <div className='w-5xl'>
-        <div className='flex justify-between items-center'>
+    <div className='flex justify-center items-center pb-16 xl:h-32'>
+      <div className='w-xs md:w-2xl xl:w-5xl'>
+        <div className='flex xl:flex-row flex-col-reverse justify-between items-center gap-8 xl:gap-0'>
           <p>copyright © 2025. All rights reserved.</p>
           <div className='flex gap-8'>
             <a href='https://www.linkedin.com/in/johnsonbhaskaran/'>
