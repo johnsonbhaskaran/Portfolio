@@ -7,169 +7,171 @@ const Prowess = () => {
   const { theme } = useTheme();
 
   return (
-    <div className='flex flex-col justify-evenly items-center gap-8 h-screen'>
-      <h2 className='w-5xl text-6xl'>My Prowess 💪</h2>
-      <div
-        className={`flex flex-wrap items-center gap-4 w-4xl ${
-          theme === "light" ? "text-white" : "text-[#333]"
-        }`}
-      >
+    <div className='flex justify-evenly w-full h-full'>
+      <div className='flex flex-col justify-evenly items-center xl:items-start md:min-w-5xl max-w-xs h-screen'>
+        <h2 className='text-5xl xl:text-6xl xl:text-left text-center'>My Prowess 💪</h2>
         <div
-          className={`${
-            theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
+          className={`flex flex-wrap xl:justify-start justify-center gap-4 max-w-2xl xl:max-w-4xl ${
+            theme === "light" ? "text-white" : "text-[#333]"
+          }`}
         >
-          <Check
+          <div
             className={`${
-              theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
-            } p-0.5 rounded-full size-8 `}
-          />
-          JavaScript
-        </div>
-        <div
-          className={`${
-            theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
-        >
-          <Check
+              theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
+            } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
+          >
+            <Check
+              className={`${
+                theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
+              } p-0.5 rounded-full size-8 `}
+            />
+            JavaScript
+          </div>
+          <div
             className={`${
-              theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
-            } p-0.5 rounded-full size-8 `}
-          />
-          React
-        </div>
-        <div
-          className={`${
-            theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
-        >
-          <Check
+              theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
+            } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
+          >
+            <Check
+              className={`${
+                theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
+              } p-0.5 rounded-full size-8 `}
+            />
+            React
+          </div>
+          <div
             className={`${
-              theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
-            } p-0.5 rounded-full size-8 `}
-          />
-          Node
-        </div>
-        <div
-          className={`${
-            theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
-        >
-          <Check
+              theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
+            } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
+          >
+            <Check
+              className={`${
+                theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
+              } p-0.5 rounded-full size-8 `}
+            />
+            Node
+          </div>
+          <div
             className={`${
-              theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
-            } p-0.5 rounded-full size-8 `}
-          />
-          HTML
-        </div>
-        <div
-          className={`${
-            theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
-        >
-          <Check
+              theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
+            } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
+          >
+            <Check
+              className={`${
+                theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
+              } p-0.5 rounded-full size-8 `}
+            />
+            HTML
+          </div>
+          <div
             className={`${
-              theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
-            } p-0.5 rounded-full size-8 `}
-          />
-          Express
-        </div>
-        <div
-          className={`${
-            theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
-        >
-          <Check
+              theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
+            } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
+          >
+            <Check
+              className={`${
+                theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
+              } p-0.5 rounded-full size-8 `}
+            />
+            Express
+          </div>
+          <div
             className={`${
-              theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
-            } p-0.5 rounded-full size-8 `}
-          />
-          MongoDB
-        </div>
+              theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
+            } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
+          >
+            <Check
+              className={`${
+                theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
+              } p-0.5 rounded-full size-8 `}
+            />
+            MongoDB
+          </div>
 
-        <div
-          className={`${
-            theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
-        >
-          <Check
+          <div
             className={`${
-              theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
-            } p-0.5 rounded-full size-8 `}
-          />
-          CSS
-        </div>
-        <div
-          className={`${
-            theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
-        >
-          <Check
+              theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
+            } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
+          >
+            <Check
+              className={`${
+                theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
+              } p-0.5 rounded-full size-8 `}
+            />
+            CSS
+          </div>
+          <div
             className={`${
-              theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
-            } p-0.5 rounded-full size-8 `}
-          />
-          Canva
-        </div>
-        <div
-          className={`${
-            theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
-        >
-          <Check
+              theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
+            } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
+          >
+            <Check
+              className={`${
+                theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
+              } p-0.5 rounded-full size-8 `}
+            />
+            Canva
+          </div>
+          <div
             className={`${
-              theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
-            } p-0.5 rounded-full size-8 `}
-          />
-          Figma
-        </div>
-        <div
-          className={`${
-            theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
-        >
-          <Check
+              theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
+            } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
+          >
+            <Check
+              className={`${
+                theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
+              } p-0.5 rounded-full size-8 `}
+            />
+            Figma
+          </div>
+          <div
             className={`${
-              theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
-            } p-0.5 rounded-full size-8 `}
-          />
-          Photoshop
-        </div>
-        <div
-          className={`${
-            theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
-        >
-          <Check
+              theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
+            } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
+          >
+            <Check
+              className={`${
+                theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
+              } p-0.5 rounded-full size-8 `}
+            />
+            Photoshop
+          </div>
+          <div
             className={`${
-              theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
-            } p-0.5 rounded-full size-8 `}
-          />
-          Illustrator
-        </div>
-        <div
-          className={`${
-            theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
-        >
-          <img src={theme === "light" ? LoadingDark : LoadingLight} alt='' />
-          Python
-        </div>
-        <div
-          className={`${
-            theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
-        >
-          <img src={theme === "light" ? LoadingDark : LoadingLight} alt='' />
-          Java
-        </div>
-        <div
-          className={`${
-            theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
-          } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
-        >
-          <img src={theme === "light" ? LoadingDark : LoadingLight} alt='' />
-          Spline
+              theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
+            } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
+          >
+            <Check
+              className={`${
+                theme === "light" ? "bg-white text-[#6A5ACD]" : "bg-[#333] text-[#9ACD32]"
+              } p-0.5 rounded-full size-8 `}
+            />
+            Illustrator
+          </div>
+          <div
+            className={`${
+              theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
+            } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
+          >
+            <img src={theme === "light" ? LoadingDark : LoadingLight} alt='' />
+            Python
+          </div>
+          <div
+            className={`${
+              theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
+            } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
+          >
+            <img src={theme === "light" ? LoadingDark : LoadingLight} alt='' />
+            Java
+          </div>
+          <div
+            className={`${
+              theme === "light" ? "bg-[#6A5ACD]" : "bg-[#9ACD32]"
+            } px-8 py-4 cursor-pointer rounded-full text-3xl flex items-center gap-2`}
+          >
+            <img src={theme === "light" ? LoadingDark : LoadingLight} alt='' />
+            Spline
+          </div>
         </div>
       </div>
     </div>
