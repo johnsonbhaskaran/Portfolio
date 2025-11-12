@@ -9,16 +9,16 @@ const Hi = () => {
         <p className='text-xl/8 md:text-3xl/20 xl:text-4xl/18'>I'm pleased to meet you!</p>
         <h2 className='text-[32px]/12 md:text-5xl xl:text-6xl'>Send a Hi! 🤗</h2>
       </div>
-      <div className='flex flex-col xl:w-5xl max-w-xs md:max-w-2xl h-2/4'>
+      <div className='flex flex-col max-w-xs md:max-w-2xl xl:max-w-4xl h-2/4'>
         <form className='h-full text-xl md:text-3xl xl:text-4xl'>
           <input
             type='text'
-            className='px-4 md:px-8 border border-b-0 focus:outline-none w-full h-1/6'
+            className='px-4 md:px-8 md:py-12 border border-b-0 focus:outline-none w-full h-1/6'
             placeholder='Name'
           />
           <input
             type='text'
-            className='px-4 md:px-8 border border-b-0 focus:outline-none w-full h-1/6'
+            className='px-4 md:px-8 md:py-12 border border-b-0 focus:outline-none w-full h-1/6'
             placeholder='Email'
           />
           <textarea
