@@ -1,12 +1,12 @@
 const Hire = () => {
   return (
     <div className='flex flex-col items-center bg-white/0 w-full h-screen'>
-      <div className='flex flex-col justify-center w-5xl h-1/4'>
-        <p className='text-4xl/16'>Yes you can hire me!</p>
-        <h2 className='text-7xl'>I'm available for Hire.🧑‍💻</h2>
+      <div className='flex flex-col justify-center max-w-xs md:max-w-2xl xl:max-w-5xl h-1/4'>
+        <p className='text-3xl/20 xl:text-4xl/16'>Yes you can hire me!</p>
+        <h2 className='text-5xl xl:text-7xl'>I'm available for Hire.🧑‍💻</h2>
       </div>
       <div className='flex flex-col justify-evenly items-center w-4xl h-3/4 text-3xl'>
-        <div className='grid grid-cols-2 w-full cursor-pointer'>
+        <div className='grid xl:grid-cols-2 w-2/4 xl:w-full cursor-pointer'>
           <a
             href='https://github.com/johnsonbhaskaran'
             className='p-6 border border-t-2 border-l-2'
