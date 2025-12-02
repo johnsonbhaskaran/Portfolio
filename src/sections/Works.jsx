@@ -10,21 +10,21 @@ const Works = () => {
       name: "FOOD-from-HOME",
       thumbnail: "",
       liveLink: "",
-      gitHub: "https://github.com/johnsonbhaskaran/Food-from-Home",
+      gitHub: "https://food-from-home.netlify.app/",
     },
     {
       id: 2,
-      name: "Desi Etsy",
-      thumbnail: "",
-      liveLink: "",
-      gitHub: "https://github.com/johnsonbhaskaran/Desi-Etsy",
-    },
-    {
-      id: 3,
       name: "Biz Listing",
       thumbnail: "",
       liveLink: "",
       gitHub: "https://biz-listing.netlify.app/",
+    },
+    {
+      id: 3,
+      name: "Desi Etsy",
+      thumbnail: "",
+      liveLink: "",
+      gitHub: "https://desi-etsy-clone.netlify.app/",
     },
   ];
 
