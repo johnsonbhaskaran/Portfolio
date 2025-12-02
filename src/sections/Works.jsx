@@ -19,6 +19,13 @@ const Works = () => {
       liveLink: "",
       gitHub: "https://github.com/johnsonbhaskaran/Desi-Etsy",
     },
+    {
+      id: 3,
+      name: "Biz Listing",
+      thumbnail: "",
+      liveLink: "",
+      gitHub: "https://biz-listing.netlify.app/",
+    },
   ];
 
   return (
