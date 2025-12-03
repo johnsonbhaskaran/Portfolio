@@ -53,6 +53,7 @@ const Works = () => {
           {projectData.map((item) => {
             return (
               <a
+                target='_blank'
                 href={item.gitHub}
                 key={item.id}
                 className={`${
