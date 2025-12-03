@@ -14,10 +14,17 @@ const Works = () => {
     },
     {
       id: 2,
+      name: "MUI Social media",
+      thumbnail: "",
+      liveLink: "",
+      gitHub: "https://mui-social-media-clone.netlify.app/",
+    },
+    {
+      id: 3,
       name: "Ev-olution",
       thumbnail: "",
       liveLink: "",
-      gitHub: "https://ev-era.netlify.app//",
+      gitHub: "https://ev-era.netlify.app/",
     },
     {
       id: 3,
