@@ -7,17 +7,24 @@ const Works = () => {
   const projectData = [
     {
       id: 1,
+      name: "Biz listing",
+      thumbnail: "",
+      liveLink: "",
+      gitHub: "https://biz-listing.netlify.app/",
+    },
+    {
+      id: 2,
+      name: "Ev-olution",
+      thumbnail: "",
+      liveLink: "",
+      gitHub: "https://ev-era.netlify.app//",
+    },
+    {
+      id: 3,
       name: "FOOD-from-HOME",
       thumbnail: "",
       liveLink: "",
       gitHub: "https://food-from-home.netlify.app/",
-    },
-    {
-      id: 2,
-      name: "Biz Listing",
-      thumbnail: "",
-      liveLink: "",
-      gitHub: "https://biz-listing.netlify.app/",
     },
     {
       id: 3,
