@@ -5,8 +5,8 @@ const Hire = () => {
         <p className='text-xl/8 md:text-3xl/20 xl:text-4xl/16'>Yes you can hire me!</p>
         <h2 className='text-[32px]/12 md:text-5xl xl:text-7xl'>I'm available for Hire.🧑‍💻</h2>
       </div>
-      <div className='flex flex-col justify-evenly items-center w-xl md:w-4xl h-3/4 text-xl md:text-3xl'>
-        <div className='grid xl:grid-cols-2 w-2/4 xl:w-full cursor-pointer'>
+      <div className='flex flex-col justify-evenly items-center md:w-4xl h-3/4 text-xl md:text-3xl'>
+        <div className='grid xl:grid-cols-2 w-4/5 xl:w-full cursor-pointer'>
           <a
             href='https://github.com/johnsonbhaskaran'
             className='p-6 border border-t-2 border-l-2'

@@ -5,7 +5,7 @@ const Hi = () => {
 
   return (
     <div className='flex flex-col items-center bg-white/0 w-full h-screen'>
-      <div className='flex flex-col justify-center items-center w-5xl h-1/4'>
+      <div className='flex flex-col justify-center items-center w-10/12 h-1/4'>
         <p className='text-xl/8 md:text-3xl/20 xl:text-4xl/18'>I'm pleased to meet you!</p>
         <h2 className='text-[32px]/12 md:text-5xl xl:text-6xl'>Send a Hi! 🤗</h2>
       </div>
