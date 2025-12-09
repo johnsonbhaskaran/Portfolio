@@ -31,14 +31,14 @@ const Works = () => {
       name: "FOOD-from-HOME",
       thumbnail: "",
       liveLink: "",
-      gitHub: "https://food-from-home.netlify.app/",
+      gitHub: "https://github.com/johnsonbhaskaran/Food-from-Home",
     },
     {
       id: 3,
       name: "Desi Etsy",
       thumbnail: "",
       liveLink: "",
-      gitHub: "https://desi-etsy-clone.netlify.app/",
+      gitHub: "https://github.com/johnsonbhaskaran/Desi-Etsy",
     },
   ];
 
